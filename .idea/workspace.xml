@@ -1,17 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f85a507f-fd5d-43ca-89c6-093b2766ceeb" name="Default Changelist" comment="" />
+    <list default="true" id="26d6bf88-d1ef-4087-974a-2b3297352df4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spring-study.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/.vscode/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/.vscode/tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/checkstyle/nohttp-checkstyle-suppressions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/checkstyle/nohttp-checkstyle-suppressions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/checkstyle/nohttp-checkstyle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/checkstyle/nohttp-checkstyle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/proxy/Cash.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/proxy/Cash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/proxy/CashPerf.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/proxy/CashPerf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/system/CrashController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/system/CrashController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/system/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/system/WelcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vets.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/visit/Visit.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/visit/Visit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/visit/VisitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/java/org/springframework/samples/petclinic/visit/VisitRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/less/header.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/less/header.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/less/petclinic.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/less/petclinic.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/less/responsive.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/less/responsive.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/less/typography.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/less/typography.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/resources/static/resources/fonts/montserrat-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/resources/static/resources/fonts/montserrat-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/resources/static/resources/fonts/varela_round-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/resources/static/resources/fonts/varela_round-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/fragments/inputField.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/fragments/inputField.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/fragments/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/fragments/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/fragments/selectField.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/fragments/selectField.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/owners/createOrUpdateOwnerForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/owners/createOrUpdateOwnerForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/owners/findOwners.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/owners/findOwners.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/owners/ownerDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/owners/ownerDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/owners/ownersList.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/owners/ownersList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/pets/createOrUpdatePetForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/pets/createOrUpdatePetForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/pets/createOrUpdateVisitForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/pets/createOrUpdateVisitForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/vets/vetList.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/vets/vetList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/resources/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/wro/wro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/wro/wro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/PetclinicIntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/PetclinicIntegrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/service/EntityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/service/EntityUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/system/CrashControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/system/CrashControllerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/vet/VetTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/test/java/org/springframework/samples/petclinic/vet/VetTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-petclinic" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
-  <component name="ProjectId" id="1YtRNsZJLfAXieG2fVtPq2xiZOA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Yw7RZYbtyvutmGyxUoFLSOmLPZ" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,10 +104,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringStudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-study" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.yoogle.springstudy.SpringStudyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -43,12 +134,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f85a507f-fd5d-43ca-89c6-093b2766ceeb" name="Default Changelist" comment="" />
-      <created>1583759867011</created>
+      <changelist id="26d6bf88-d1ef-4087-974a-2b3297352df4" name="Default Changelist" comment="" />
+      <created>1583841795502</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583759867011</updated>
-      <workItem from="1583759871821" duration="724000" />
+      <updated>1583841795502</updated>
+      <workItem from="1583841802108" duration="320000" />
     </task>
     <servers />
   </component>
@@ -56,9 +147,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="613" y="432" key="com.intellij.ide.util.TipDialog" timestamp="1583759878439">
+    <state x="424" y="262" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583841920044">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="613" y="432" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1583759878439" />
+    <state x="424" y="262" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1583841920044" />
   </component>
 </project>
