@@ -9,28 +9,38 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.stereotype.Component;
+import org.springframework.validation.BeanPropertyBindingResult;
+import org.springframework.validation.Errors;
+import org.springframework.validation.Validator;
 
 import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Arrays;
 
 @Component
-@EnableAsync
 public class AppRunner implements ApplicationRunner {
 
     @Autowired
-    ApplicationContext resourceLoader;
+    Validator validator;
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        System.out.println(resourceLoader.getClass());
+        System.out.println(validator.getClass());
 
-        Resource resource = resourceLoader.getResource("classpath:text.txt");
-        System.out.println(resource.getClass());
+        Event event = new Event();
+        event.setLimit(-1);
+        Errors errors = new BeanPropertyBindingResult(event, "event");
 
-        System.out.println(resource.exists());
-        System.out.println(resource.getDescription());
-        System.out.println(Files.readAllLines(Paths.get(resource.getURI())));
+        validator.validate(event, errors);
+
+        System.out.println(errors.hasErrors());
+
+        errors.getAllErrors().forEach(e -> {
+            System.out.println("======= Error Code =======");
+            Arrays.stream(e.getCodes()).forEach(System.out::println);
+            System.out.println(e.getDefaultMessage());
+        });
     }
 }
