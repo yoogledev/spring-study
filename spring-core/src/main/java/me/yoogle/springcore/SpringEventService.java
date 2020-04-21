@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 public class SpringEventService implements EventService {
     long begin = System.currentTimeMillis();
 
+    @PerLogging
     @Override
     public void createEvent() {
         try{
@@ -16,6 +17,7 @@ public class SpringEventService implements EventService {
         System.out.println("Create an event");
     }
 
+    @PerLogging
     @Override
     public void publishEvent() {
         try{
