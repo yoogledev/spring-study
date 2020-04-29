@@ -1,11 +1,14 @@
 package me.yoogle.springtestdemo.sample;
 
+import org.junit.Rule;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.boot.test.rule.OutputCapture;
+import org.springframework.boot.test.system.OutputCaptureRule;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.reactive.server.WebTestClient;
@@ -19,6 +22,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @WebMvcTest(SampleController.class)
 public class SampleControllerTest {
 
+    @Rule
+    public OutputCaptureRule outputCapture = new OutputCaptureRule();
+
     @MockBean
     SampleService mokSampleService;
 
@@ -26,11 +32,14 @@ public class SampleControllerTest {
     MockMvc mockMvc;
 
     @Test
-    public void hello() throws Exception{
+    public void hello() throws Exception {
         when(mokSampleService.getName()).thenReturn("yoogle");
 
         mockMvc.perform(get("/hello"))
                 .andExpect(content().string("hello yoogle"));
+
+        assertThat(outputCapture.toString()).contains("hello yoogle");
+
     }
 
 }
