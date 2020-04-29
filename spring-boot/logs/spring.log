@@ -1,0 +1,10 @@
+2020-04-30 02:28:54.124  INFO 14712 --- [main] me.yoogle.Application                    : Starting Application on yoogle.local with PID 14712 (/Users/yoogle/Desktop/yoogle/Project/spring-study/spring-boot/build/classes/java/main started by yoogle in /Users/yoogle/Desktop/yoogle/Project/spring-study/spring-boot)
+2020-04-30 02:28:54.128  INFO 14712 --- [main] me.yoogle.Application                    : The following profiles are active: test
+2020-04-30 02:28:54.701  INFO 14712 --- [main] me.yoogle.Application                    : Started Application in 0.914 seconds (JVM running for 1.673)
+2020-04-30 02:32:01.760  INFO 14853 --- [main] me.yoogle.Application                    : Starting Application on yoogle.local with PID 14853 (/Users/yoogle/Desktop/yoogle/Project/spring-study/spring-boot/build/classes/java/main started by yoogle in /Users/yoogle/Desktop/yoogle/Project/spring-study/spring-boot)
+2020-04-30 02:32:01.763  INFO 14853 --- [main] me.yoogle.Application                    : The following profiles are active: test
+2020-04-30 02:32:02.359  INFO 14853 --- [main] me.yoogle.Application                    : Started Application in 0.989 seconds (JVM running for 1.757)
+2020-04-30 02:32:02.360  INFO 14853 --- [main] me.yoogle.YoogleRunner                   : =======================
+2020-04-30 02:32:02.360  INFO 14853 --- [main] me.yoogle.YoogleRunner                   : hello test
+2020-04-30 02:32:02.360  INFO 14853 --- [main] me.yoogle.YoogleRunner                   : Test
+2020-04-30 02:32:02.362  INFO 14853 --- [main] me.yoogle.YoogleRunner                   : =======================
