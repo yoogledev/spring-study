@@ -21,10 +21,10 @@ public class YoogleRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        logger.info("=======================");
-        logger.info(hello);
-        logger.info("Test");
-        logger.info("=======================");
+        logger.debug("=======================");
+        logger.debug(hello);
+        logger.debug("Test");
+        logger.debug("=======================");
 
         System.out.println("=======================");
         System.out.println(hello);
