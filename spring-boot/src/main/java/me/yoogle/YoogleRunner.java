@@ -1,5 +1,6 @@
 package me.yoogle;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -8,11 +9,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class YoogleRunner implements ApplicationRunner {
 
-    @Value("${yoogle.name}")
-    private String name;
-
-    @Value("${yoogle.age}")
-    private int age;
+    @Autowired
+    YoogleProperties yoogleProperties;
 
     @Value("${yoogle.fullname}")
     private String fullName;
@@ -20,9 +18,9 @@ public class YoogleRunner implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
         System.out.println("=======================");
-        System.out.println(name);
-        System.out.println(age);
-        System.out.println(fullName);
+        System.out.println(yoogleProperties.getName());
+        System.out.println(yoogleProperties.getAge());
+        System.out.println(yoogleProperties.getSessionTimeout());
         System.out.println("=======================");
 
     }
