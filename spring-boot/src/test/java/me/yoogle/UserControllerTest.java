@@ -16,6 +16,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.xpath;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(UserController.class)
@@ -36,11 +37,11 @@ public class UserControllerTest {
         String userJson = "{\"username\":\"yoogle\", \"password\":\"123\"}";
         mockMvc.perform(post("/users/create")
                 .contentType(MediaType.APPLICATION_JSON_UTF8)
-                .accept(MediaType.APPLICATION_JSON)
+                .accept(MediaType.APPLICATION_XML)
                 .content(userJson))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.username", is(equalTo("yoogle"))))
-                .andExpect(jsonPath("$.password", is(equalTo("123"))));
+                .andExpect(xpath("/User/username").string("yoogle"))
+                .andExpect(xpath("/User/password").string("123"));
     }
 
 }
