@@ -28,6 +28,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'org.springframework.boot:spring-boot-devtools'
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml'
+    testImplementation 'org.seleniumhq.selenium:htmlunit-driver'
+    testImplementation 'net.sourceforge.htmlunit:htmlunit'
     compile group: 'org.webjars.bower', name: 'jquery', version: '3.5.0'
     compile group: 'org.webjars', name: 'webjars-locator-core', version: '0.45'
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
