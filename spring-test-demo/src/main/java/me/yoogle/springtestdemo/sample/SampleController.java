@@ -9,15 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SampleController {
 
-    Logger logger = LoggerFactory.getLogger(SampleController.class);
-
     @Autowired
     private SampleService sampleService;
 
     @GetMapping("/hello")
     public String hello() {
-        logger.info("yoogleman");
-        System.out.println("");
         return "hello " + sampleService.getName();
     }
 }
